@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("/images/html-css2.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 350px;
+    background-size: 1080px 480px;
+}
+
+#navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: 'Lexend';
+    font-size: 32px;
+    align-items: center;
+    font-weight: bold;
+    height: 100px;
+    align-items: center;
+    display: flex;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.home {
+    margin-left: 70px;
+}
+
+.aboutMe {
+    margin-left: 150px;
+}
+
+.myExperiences {
+    margin-left: 150px;
+}
+
+.whereStart {
+    margin-left: 150px;
+}
+
+#footer {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    font-family: 'Lexend';
+    font-size: 20px;
+    height: 80px;
+    align-items: center;
+    position: absolute;
+    display: flex;
+    bottom: 0;
+}
+
+.copyright {
+    margin-left: 150px;
+}
