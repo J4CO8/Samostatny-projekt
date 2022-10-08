@@ -13,7 +13,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: rgba(57, 54, 54, 0.86);
     font-family: 'Lexend';
     font-size: 32px;
     align-items: center;
@@ -21,6 +21,53 @@ body {
     height: 100px;
     align-items: center;
     display: flex;
+}
+ul li a {
+    position: relative;
+}
+ul li a:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: #ffffff;
+    height: 3px;
+    transition: all 0.7s;
+}
+ul li a:hover:after {
+    width: 100%;
+}
+
+ul li a {
+    transition: all 0.7s;
+}
+
+ ul li a:after {
+    text-align: left;
+    content: '.';
+    margin: 0;
+    opacity: 0;
+}
+ul li a:hover {
+    color: #fff;
+    z-index: 1;
+}
+ul li a:hover:after {
+    z-index: -10;
+    animation: fill 1s forwards;
+    -webkit-animation: fill 1s forwards;
+    -moz-animation: fill 1s forwards;
+    opacity: 1;
+}
+
+
+
+ul li a:hover {
+    color: black;
 }
 
 li {
@@ -32,10 +79,6 @@ li a {
     color: white;
     text-align: center;
     text-decoration: none;
-}
-
-li a:hover {
-    background-color: #111;
 }
 
 .home {
@@ -56,7 +99,7 @@ li a:hover {
 
 #footer {
     width: 100%;
-    background-color: #333;
+    background-color: rgba(57, 54, 54, 0.86);
     color: white;
     font-family: 'Lexend';
     font-size: 20px;
@@ -68,5 +111,5 @@ li a:hover {
 }
 
 .copyright {
-    margin-left: 150px;
+    margin-left: 70px;
 }
