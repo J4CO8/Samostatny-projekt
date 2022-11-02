@@ -94,10 +94,12 @@ li a {
 
 .pozadi-obrazek {
     background-image: url("/images/html-css.png");
+    z-index: 100;
 }
 
 .pozadi {
     opacity: 0.4;
+    z-index: 200;
 }
 
 .text {
