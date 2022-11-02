@@ -108,6 +108,30 @@ li a {
     padding: 50px 70px 50px 70px;
 }
 
+.text1 {
+
+}
+
+.text2 {
+    padding-right: 35em;
+}
+
+#obrazekMe {
+    height: 20rem;
+    border-radius: 50px;
+    float: right;
+    margin-top: 40px;
+    margin-right: 200px;
+}
+
+.text3 {
+
+}
+
+.text4 {
+    padding-right:  25em;
+}
+
 #footer {
     width: 100%;
     background-color: rgba(57, 54, 54, 0.86);
@@ -118,7 +142,6 @@ li a {
     align-items: center;
     display: flex;
     bottom: 0;
-    min-height: 100%;
 }
 
 .copyright {
