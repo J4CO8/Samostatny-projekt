@@ -9,7 +9,7 @@ body {
     padding: 0;
     overflow: hidden;
     background-color: rgba(57, 54, 54, 0.86);
-    font-family: 'Lexend';
+    font-family: Lexend;
     font-size: 32px;
     align-items: center;
     font-weight: bold;
@@ -97,7 +97,6 @@ li a {
 }
 
 .pozadi {
-
     opacity: 0.4;
 }
 
@@ -132,11 +131,36 @@ li a {
     padding-right:  25em;
 }
 
+.mainHome {
+    padding-top: 50px;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    text-align: center;
+}
+
+.nadpis1Home {
+    font-family: Lexend;
+    font-weight: bold;
+    font-size: 64px;
+}
+
+.nadpis2Home {
+    font-family: Lexend;
+    font-weight: bolder;
+    font-size: 36px;
+}
+
+.para1Home {
+    font-family: Lexend;
+    font-size: 32px;
+}
+
 #footer {
     width: 100%;
     background-color: rgba(57, 54, 54, 0.86);
     color: white;
-    font-family: 'Lexend';
+    font-family: Lexend;
     font-size: 20px;
     height: 80px;
     align-items: center;
