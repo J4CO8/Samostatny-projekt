@@ -1,11 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url("/images/html-css2.png");
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: 350px;
-    background-size: 1080px 480px;
 }
 
 #navigation {
@@ -95,6 +90,19 @@ li a {
 
 .whereStart {
     margin-left: 150px;
+}
+
+.pozadi-obrazek {
+    background-image: url("/images/html-css.png");
+}
+
+.pozadi {
+
+    opacity: 0.4;
+}
+
+.text {
+
 }
 
 #footer {
