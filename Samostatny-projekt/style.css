@@ -95,6 +95,7 @@ li a {
 .pozadi-obrazek {
     background-image: url("/images/html-css.png");
     z-index: 100;
+    position: absolute;
 }
 
 .pozadi {
@@ -168,6 +169,7 @@ li a {
     align-items: center;
     display: flex;
     bottom: 0;
+    position: fixed;
 }
 
 .copyright {
